@@ -8,7 +8,7 @@ const AppBar = () => {
 
   const handleLogout = () => {
     // Perform logout actions, such as removing the token from storage
-    sessionStorage.removeItem("jwt"); // Replace with your token storage method
+    sessionStorage.removeItem("jwtToken"); // Replace with your token storage method
 
     // Navigate to the login page or another appropriate destination
     navigate("/login");
