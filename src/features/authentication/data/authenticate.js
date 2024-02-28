@@ -1,6 +1,9 @@
+import apiUrl from "../../../utils/apiConnection";
+
 const authenticate = async (user, onNext, setError) => {
+  
     try {
-        const response = await fetch("/login", {
+        const response = await fetch(apiUrl + "/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

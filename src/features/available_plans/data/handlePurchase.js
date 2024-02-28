@@ -1,8 +1,10 @@
+import apiUrl from "../../../utils/apiConnection";
+
 const handlePurchase = async (product, handleContinue, setError) => {
     try {
       const token = sessionStorage.getItem("jwtToken");
 
-      const response = await fetch("/purchase", {
+      const response = await fetch(apiUrl + "/purchase", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

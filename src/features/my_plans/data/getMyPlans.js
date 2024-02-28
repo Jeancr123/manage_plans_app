@@ -1,6 +1,9 @@
+import apiUrl from "../../../utils/apiConnection";
+
 const getMyPlans = (onNext) => {
+  
     const token = sessionStorage.getItem("jwtToken");
-    fetch("/get_purchased_plans", {
+    fetch(apiUrl + "/get_purchased_plans", {
       headers: {
         Authorization: token,
         "Content-Type": "application/json",
