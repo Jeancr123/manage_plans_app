@@ -1,0 +1,60 @@
+/* Add your existing styles */
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 50%;
+    max-width: 120rem; /* Limit the maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .wider-card {
+    max-width: 100%; /* Adjusted the max-width to take up the full width of the parent */
+    padding: 2rem 3rem;
+    border: 2px solid #edc84b;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  label {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 1rem;
+    font-size: 1.4rem;
+    border: 2px solid #edc84b;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: #ff3d00;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+  }
+  
+  .login-button {
+    color: #fff;
+    background-color: #edc84b;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .login-button:hover {
+    background-color: #e9bb24;
+  }

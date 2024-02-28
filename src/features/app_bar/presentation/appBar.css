@@ -1,0 +1,27 @@
+/* appBar.css */
+.app-bar {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center; /* Center items vertically */
+    background: none;
+    padding: 10px;
+  }
+  
+  .logout-text {
+    margin-right: 8px; /* Adjust the margin as needed for spacing */
+    font-size: 18px; /* Adjust the font size */
+  }
+  
+  .logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 32px; /* Adjust the font size */
+    color: #333; /* Set the default color to a lighter black (#333) */
+    transition: color 0.2s; /* Add a transition effect for smooth hover */
+  }
+  
+  .logout-button:hover {
+    color: #FFC107; /* Change color on hover */
+  }
+  

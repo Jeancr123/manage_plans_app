@@ -1,0 +1,57 @@
+.my-plans-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .plans-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .plan-card {
+    width: 300px;
+    margin: 1rem;
+    border: 2px solid #edc84b;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .plan-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .plan-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .plan-step {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  
+  .plan-step input {
+    margin-right: 0.5rem;
+  }
+  
+  /* ... (existing styles) */
+  
+  .plan-header {
+    background-color: #edc84b;
+    color: #fff;
+    padding: 1rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .plan-header h3 {
+    margin: 0;
+  }
+  
