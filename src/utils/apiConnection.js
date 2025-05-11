@@ -1,3 +1,3 @@
-const apiUrl = 'https://manage-plans-server-44f92f5bfc73.herokuapp.com';
+const apiUrl = 'http://3.14.245.31:8000';
 
 export default apiUrl;
